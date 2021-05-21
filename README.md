@@ -1,14 +1,14 @@
 abstract class A
 {
-	void display()
+	public void display()
 	{
 		System.out.println("Im a normal method");
 	}
-	abstract void show();  //abstract method
+	public abstract void show();  //abstract method
 }
 class B extends A
 {
-	void show()
+	public void show()
 	{
 		System.out.println("Im definition of abstact method");
 	};
